@@ -1,3 +1,3 @@
 # XML_Web_Services
-## Partie Technologie XML
-### Q1
+A.Partie Technologie XML
+Q1. Arbre XML
