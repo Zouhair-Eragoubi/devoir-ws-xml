@@ -6,10 +6,8 @@ import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
 import jakarta.jws.WebService;
 
-
 @WebService(serviceName  =  "releveWs")
 public class ReleveWs {
-	
 	
 	@WebMethod(operationName = "getReleve")
 	public Releve getReleve() {
@@ -31,14 +29,10 @@ public class ReleveWs {
 		releve.setOperations(operations);
 		
 		return releve;
-		
 	}
 	
 	@WebMethod(operationName = "getReleveByRib")
 	public Releve getReleveByRib(@WebParam(name = "rib") String rib) {
-		
 		return null;
-		
 	}
-
 }

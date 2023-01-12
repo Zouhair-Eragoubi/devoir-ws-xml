@@ -37,7 +37,5 @@ public class Question_B3
 		marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 		marshaller.marshal(releve, new File("releve.xml"));
 
-		
-		
     }
 }
